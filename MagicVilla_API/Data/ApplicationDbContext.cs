@@ -10,6 +10,7 @@ namespace MagicVilla_API.Data
             
         }
         public DbSet<Villa> villas { get; set; }
+        public DbSet<Product> products { get; set; }
 
     }
 }
